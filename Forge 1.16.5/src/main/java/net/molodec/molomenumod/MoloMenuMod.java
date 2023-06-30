@@ -32,7 +32,7 @@ public class MoloMenuMod {
     public static final Logger LOGGER = LogManager.getLogger();
 
     public MoloMenuMod() {
-        LOGGER.info("This is private place, and...FireVindicator HUI SOSI");
+        LOGGER.info("This is private place, and Saudade Studios entry is prohibited");
         MinecraftForge.EVENT_BUS.addListener(this::OpenGui);
     }
 
