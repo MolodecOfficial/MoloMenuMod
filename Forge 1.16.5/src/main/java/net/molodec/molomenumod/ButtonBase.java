@@ -27,7 +27,6 @@ public class ButtonBase extends net.minecraft.client.gui.widget.button.Button {
         this.text = text;
         this.texLocation = texture;
     }
-
     public ButtonBase(int x, int y, int width, int height, String text, IPressable onPress, ResourceLocation texture) {
         this(x, y, width, height, new StringTextComponent(text), onPress, texture);
     }
