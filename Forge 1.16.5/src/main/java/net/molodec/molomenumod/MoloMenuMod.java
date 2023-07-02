@@ -39,7 +39,7 @@ public class MoloMenuMod {
     @OnlyIn(Dist.CLIENT)
     public void OpenGui(GuiOpenEvent event) {
         if (event.getGui() instanceof MainMenuScreen) {
-            LOGGER.info("test");
+            LOGGER.info("This is private place, Saudade Studios entry is prohibited");
             event.setGui(new MoloMenuClass());
         }
     }
